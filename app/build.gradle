@@ -67,6 +67,6 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.airbnb.android:lottie:6.0.0' // Added Lottie dependency
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
     // Additional dependencies like Flutter support
 }

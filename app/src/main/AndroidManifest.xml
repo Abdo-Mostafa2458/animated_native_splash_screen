@@ -24,11 +24,11 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:launchMode="singleTop"
-            android:theme="@style/NormalTheme"
+            android:theme="@style/Theme.App.Transparent"
             android:windowSoftInputMode="adjustResize"> <!-- Added android:exported -->
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
-                android:resource="@style/NormalTheme" />
+                android:resource="@style/Theme.App.Transparent" />
             <meta-data
                 android:name="io.flutter.embedding.android.SplashScreenDrawable"
                 android:resource="@drawable/launch_background" />

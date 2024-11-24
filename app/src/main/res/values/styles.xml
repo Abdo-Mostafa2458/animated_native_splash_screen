@@ -3,11 +3,20 @@
     <!-- Custom Theme for Splash Screen (when the app is starting) -->
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Use a custom drawable (e.g., launch_background.xml) as the background -->
-        <item name="android:windowBackground">@drawable/launch_background</item>
         <!-- Set status bar to transparent for a seamless splash screen effect -->
         <item name="android:statusBarColor">@android:color/transparent</item>
         <!-- Optional: Set the navigation bar color to match splash screen background -->
         <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="LaunchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <style name="Theme.App.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <!-- Normal theme applied once the Flutter engine is ready and running -->
